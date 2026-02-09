@@ -1,0 +1,66 @@
+# ======================
+# Dependencies
+# ======================
+node_modules/
+bower_components/
+
+# ======================
+# Build Output (Vite/React)
+# ======================
+dist/
+dist-ssr/
+build/
+coverage/
+
+# ======================
+# Environment Variables & Secrets (CRITICAL)
+# ======================
+.env
+.env.local
+.env.*.local
+web/.env
+serviceAccountKey.json
+
+# ======================
+# Firebase
+# ======================
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+.dataconnect
+
+# ======================
+# Logs
+# ======================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ======================
+# OS & Editor Config
+# ======================
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ======================
+# Misc / Runtime
+# ======================
+pids
+*.pid
+*.seed
+*.pid.lock
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
